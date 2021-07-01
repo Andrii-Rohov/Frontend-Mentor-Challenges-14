@@ -272,7 +272,7 @@
 }
 
 #second_section #second-section_text #comment #comment-wrapper p {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.5;
   margin: 0;
 }
@@ -307,7 +307,7 @@
 }
 
 #second_section #second-section_text #comment #comment-wrapper img {
-  width: 10%;
+  width: 9%;
   border-radius: 50%;
   margin-right: 4%;
 }
