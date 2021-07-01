@@ -1,0 +1,36 @@
+/*Header*/
+#header {
+    display: flex;
+    flex-direction: row;
+    min-height: 178px;
+    #logo_wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+    }
+    #logo{
+        margin-left: 80px;
+        width: 167px;
+    }
+    #nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        a {
+            margin-right: 80px;
+            text-decoration: none;
+            color: $Very-Dark-Blue;
+            font-size: 16px;
+            font-family: $Font-Raleway;
+            transition: 100ms linear;
+            &:hover {
+                color: $Bright-Blue;
+            }
+        }
+    }
+    
+}
+/*Header*/
