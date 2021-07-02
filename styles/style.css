@@ -971,4 +971,23 @@ body {
     font-size: 15px !important;
   }
 }
+
+@media (max-width: 400px) {
+  #header #logo_wrapper {
+    width: 35%;
+  }
+  #header #logo {
+    margin-left: 7px;
+    width: 100%;
+  }
+  #header #nav_bar {
+    width: 70%;
+  }
+  #header #nav_bar a {
+    margin-right: 10px;
+  }
+  #error_message_pre_footer_form {
+    font-size: 15px !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
